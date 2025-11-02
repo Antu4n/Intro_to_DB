@@ -46,3 +46,5 @@ CREATE TABLE IF NOT EXISTS NewOrders(
     order_date DATE
 );
 
+ALTER TABLE Books
+RENAME COLUMN Price TO price;  
