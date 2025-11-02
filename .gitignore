@@ -210,3 +210,5 @@ __marimo__/
 __init__.py
 __pycache__/
 *.pyc
+
+"MySql Local.session.sql"
