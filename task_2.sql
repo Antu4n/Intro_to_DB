@@ -44,3 +44,6 @@ ALTER TABLE Customers RENAME TO customers;
 ALTER TABLE Books RENAME TO books;
 ALTER TABLE Authors RENAME TO authors;
 ALTER TABLE OrderDetails RENAME TO order_details;
+
+ALTER TABLE Books
+RENAME COLUMN Price TO price;

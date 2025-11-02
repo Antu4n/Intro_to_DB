@@ -48,3 +48,10 @@ CREATE TABLE IF NOT EXISTS NewOrders(
 
 ALTER TABLE Books
 RENAME COLUMN Price TO price;  
+
+RENAME TABLE OrderDetails TO Order_Details;
+
+ALTER TABLE Order_Details
+MODIFY COLUMN quantity DOUBLE;
+
+DESCRIBE Order_Details;
